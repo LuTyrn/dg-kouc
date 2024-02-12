@@ -373,6 +373,10 @@ span {
         padding: 10rem 3% 2rem;
     }
 
+    .services {
+        padding-bottom: 7rem;
+    }
+
     .footer {
         padding: 2rem 3%;
     }
@@ -403,5 +407,35 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .services h2 {
+        margin-bottom: 3rem;
     }
 }
