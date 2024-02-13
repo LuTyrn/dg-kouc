@@ -289,8 +289,12 @@ span {
 }
 
 .contact-box p {
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     margin: 0 2rem;
+}
+
+.contact-box a {
+    color: var(--main-color);
 }
 
 .contact form {
@@ -469,6 +473,14 @@ span {
     .reference-container {
         grid-template-columns: 1fr;
     }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .contact-box p {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -488,6 +500,10 @@ span {
 
     .about-img img {
         width: 90vw;
+    }
+
+    .contact-box p {
+        font-size: 1.8rem;
     }
 }
 
