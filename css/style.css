@@ -283,6 +283,16 @@ span {
     margin-bottom: 3rem;
 }
 
+.contact-box {
+    display: flex;
+    justify-content: center
+}
+
+.contact-box p {
+    font-size: 1.6rem;
+    margin: 0 2rem;
+}
+
 .contact form {
     max-width: 70rem;
     margin: 1rem auto;
