@@ -202,8 +202,54 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.reference {
+.collaboration {
     background: var(--second-bg-color);
+}
+
+
+.collaboration h2 {
+    margin-bottom: 5rem;
+}
+
+.collaboration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.collaboration-container .collaboration-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--second-bg-color);
+    transition: .5s ease;
+}
+
+.collaboration-container .collaboration-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.collaboration-box img {
+    width: 10vw;
+    color: var(--main-color);
+}
+
+.collaboration-box h3 {
+    font-size: 2.6rem;
+}
+
+.collaboration-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.reference {
+    background: var(--bg-color);
 }
 
 .reference h2 {
@@ -279,6 +325,9 @@ span {
     color: var(--second-bg-color);
 }
 
+.contact {
+    background: var(--second-bg-color);
+}
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -317,7 +366,7 @@ span {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
@@ -466,7 +515,7 @@ span {
     }
 
     .reference-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
