@@ -107,6 +107,7 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+    margin-bottom: 3rem;
 }
 
 .btn {
@@ -538,12 +539,19 @@ span {
         font-size: 50%;
     }
 
+    .home-content h1 {
+        font-size: 4.4rem;
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
 }
 
 @media (max-width: 365px) {
+    .home-content h1 {
+        font-size: 3.7rem;
+    }
     .home-img img {
         width: 90vw;
     }
