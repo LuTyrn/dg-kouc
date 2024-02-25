@@ -35,6 +35,15 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+/*=== typed js ===*/
+const typed = new Typed('.multiple-text', {
+    strings: ['lektorka', 'koučka', 'zde pro Vás'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
+
 /*=== settings smtp server for sending emails from contact form ===*/
 const form = document.querySelector('form');
 
